@@ -7,10 +7,10 @@ function App() {
   const [email, setEmail] = useState("");
   const [dataUpdated, setDataUpdated] = useState(false);
   const [update, setUpdate] = useState(false);
-  const [endPoint, setEndPoint] = useState("http://127.0.0.1:8000/users/");
+  const [endPoint, setEndPoint] = useState("/users/");
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/users/")
+    fetch("/users/")
       .then((res) => res.json())
       .then((data) => {
         setUsers(data);
@@ -55,7 +55,7 @@ function App() {
     setEmail("");
     console.log(newUser);
 
-    let url = "http://127.0.0.1:8000/users/";
+    let url = "/users/";
     let httpMethod = "POST";
 
     if (update) {
