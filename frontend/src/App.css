@@ -1,0 +1,20 @@
+body {
+  margin-top: 50px;
+}
+
+form {
+  margin-bottom: 8%;
+  background-color: rgb(251, 225, 190);
+}
+
+h4 {
+  margin: 25px 0px;
+}
+
+.btn {
+  width: 100%;
+}
+
+.list-items .row{
+  margin-bottom:50px;
+}
