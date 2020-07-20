@@ -25,7 +25,7 @@ SECRET_KEY = '@w-1f@c1-zpag-!8(vs5df$=^e@onnu=#*bd*!(k6zwn&^g74n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-react-tutorial-elena.herokuapp.com']
 
 
 # Application definition
