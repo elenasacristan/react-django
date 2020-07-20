@@ -122,3 +122,4 @@ GitHub.sublime-settings
 .history
 
 frontend/build
+node_modules
