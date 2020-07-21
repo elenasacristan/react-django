@@ -127,10 +127,10 @@ function App() {
       <h4>Users list</h4>
         {users.map((user) => (
           <div className="row items" key={user.email}>
-            <div className="col-12 col-sm-8">
+            <div className="col-12 col-md-5">
               <p>{user.username}</p>
             </div>
-            <div className="col-6  col-sm-2">
+            <div className="col-6  col-md-3">
               <button
                 onClick={() => handleEdit(user)}
                 className="btn btn-primary btn-sm"
@@ -138,7 +138,7 @@ function App() {
                 Edit
               </button>
             </div>
-            <div className="col-6  col-sm-2 ">
+            <div className="col-6  col-md-3 ">
               <button
                 onClick={() => handleDelete(user)}
                 className="btn btn-danger btn-sm"
