@@ -2,7 +2,6 @@
 env
 frontend/node_modules
 .vscode
-env
 
 # Django #
 *.log
@@ -123,3 +122,4 @@ GitHub.sublime-settings
 
 frontend/build
 node_modules
+env.py
