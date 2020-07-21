@@ -123,3 +123,4 @@ GitHub.sublime-settings
 frontend/build
 node_modules
 env.py
+*.sqlite3
